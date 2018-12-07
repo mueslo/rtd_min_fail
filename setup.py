@@ -34,7 +34,8 @@ setup(
     ],
     python_requires=">=2.7, <4",
     extras_require={
-        'docs': ['sphinx', 'sphinx-gallery'],
+        'docs': ['sphinx~=1.8', 
+                 'sphinx-gallery~=0.2'],
     },
     classifiers=[
         "Operating System :: OS Independent",
