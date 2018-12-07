@@ -1,5 +1,9 @@
 __version__ = "1"
 
+import os
+
+print(os.listdir("/home/docs/checkouts/readthedocs.org/user_builds/rtd-min-fail/envs/latest/lib/python3.5/site-packages"))
+
 from mpl_toolkits.mplot3d import proj3d
 import numpy as np
 
