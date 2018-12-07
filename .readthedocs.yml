@@ -1,6 +1,6 @@
 python:
    version: 3
    pip_install: true
+   extra_requirements:
+    - docs
 #   use_system_site_packages: false
-#   extra_requirements:
-#    - docs
