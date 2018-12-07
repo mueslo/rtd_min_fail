@@ -30,7 +30,7 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     install_requires=[
         "numpy~=1.15",
-        "matplotlib~=3.0",
+        "matplotlib~=2.2",
     ],
     python_requires=">=2.7, <4",
     extras_require={
